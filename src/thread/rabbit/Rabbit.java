@@ -1,6 +1,7 @@
 /*
     Author: Naman Seth (namanseth01)
  */
+
 package thread.rabbit;
 
 import javax.swing.*;
@@ -42,7 +43,7 @@ public class Rabbit implements Runnable {
                     }
                     break;
                 case 4:
-                    System.out.println("The Rabbit has reached the finish line!");
+                    System.out.println("****************The Rabbit has reached the finish line!*********************");
                     break;
             }
             try {

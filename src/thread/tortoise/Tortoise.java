@@ -1,6 +1,7 @@
 /*
     Author: Naman Seth (namanseth01)
  */
+
 package thread.tortoise;
 
 import javax.swing.*;
@@ -29,13 +30,13 @@ public class Tortoise extends Thread {
                     System.out.println("The Tortoise has reached the Big Oak Tree!");
                     break;
                 case 4:
-                    System.out.println("The Tortoise has reached the finish line!");
+                    System.out.println("***************The Tortoise has reached the finish line!*********************");
                     break;
             }
             try {
                 Thread.sleep(3000L);
             } catch (InterruptedException e) {
-                System.err.println("The Tortoise has won the path!");
+                System.err.println("The Tortoise has lost the path!");
             }
         }
         JOptionPane.showConfirmDialog(
@@ -45,5 +46,4 @@ public class Tortoise extends Thread {
                 JOptionPane.OK_CANCEL_OPTION
         );
     }
-
 }
