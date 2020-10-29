@@ -1,3 +1,6 @@
+/*
+    Author: Naman Seth (namanseth01)
+ */
 package main;
 
 import thread.rabbit.Rabbit;
